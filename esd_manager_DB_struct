@@ -1,0 +1,26 @@
+6818629101362 - 222222 - Foulen Ben Foulen
+
+Server : 10.155.149.92
+DataBase : poleindus
+Login : poleindus
+PW : poleindus
+
+Liste des tables :
+esd_mat
+sysdiagrams
+esd_res
+asupp
+
+Liste des champs esd_mat : 
+mat_id (int) NOT NULL
+mat_nom (varchar(50)) NOT NULL
+mat_uap (varchar(25)) can be NULL
+mat_mat (varchar(10)) NOT NULL
+
+Liste des champs esd_res : 
+res_id (int)
+res_mat (varchar(10))
+res_res (varchar(30))
+res_dat (datetime)
+res_nom (varchar(50))
+res_uap (varchar(25))
